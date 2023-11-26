@@ -1,0 +1,188 @@
+:root {
+    --cor-primaria: #fed001;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10em;
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p, a {
+    font-size: 1.6rem;
+}
+
+nav a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+.section-title {
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.btn {
+    font-size: 1.8rem;
+    text-decoration: none;
+    background-color: var(--cor-primaria);
+    border-radius: 4px;
+    padding: 1.6rem 4.6rem;
+    color: inherit;
+    display: inline-block;
+}
+
+.btn-section {
+    margin: 7rem 0;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.container-dark, footer {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.container-ligth {
+    background-color: #fafafa;
+    
+}
+
+.container-dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor-primaria);
+    padding: 2rem 0;
+}
+
+.container-fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-list .list {
+    display: flex;
+    list-style-type: none;
+    gap: .6rem;
+}
+
+.list a {
+    border: solid 1px;
+    padding: .75em 1.15em ;
+    text-decoration: none;
+}
+
+.list a:hover {
+    background-color: rgba(0, 0, 0, 0.642);
+}
+
+.container-hero {
+    background-image: linear-gradient(to top, #ffff64,white);
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.hero-title {
+    margin-bottom: 4rem;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.container-cursos {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: white;
+}
+
+.card-curso {
+    flex: 1;
+}
+
+.card-curso img {
+    display: block;
+    width: 100%;
+}
+
+.container-cursos .card-curso {
+    text-align: left;
+}
+
+.container-cursos .card-curso h3 {
+    font-size: 2.4rem;
+}
+
+.container-cursos .card-curso p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.informacoes-curso {
+    padding: 1.6rem;
+    border: solid 1px #bcbcbc;
+    border-radius: 0px 0px 8px 8px;
+    border-top: transparent;
+}
+
+.nossa-escola {
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+    padding-top: 3rem;
+}
+
+
+.nossa-escola p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.escola-title {
+    padding-top: 3rem;
+    font-size: 3,2rem;
+}
+
+.contatos-address {
+    text-align: right;
+    font: 400 1.8rem 'Arial', 'sans-serif';
+    padding: 3rem 0;
+}
+
+footer {
+    font-size: 1.6em;
+    padding: 4.5em 0;
+    text-align: center;
+}
